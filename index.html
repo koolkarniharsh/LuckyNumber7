@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LuckyNumber7</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="icon" href="favicon.ico"/>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Try your Luck!</h1>
+
+      <div class="col-lg-12">
+        <button class="btn btn-sm btn-outline-light" onclick="onReset()">Reset</button>
+      </div>
+      <div class="col-lg-12">
+        <div class="dice col-lg-3 col-md-3">
+          <button class="button-hover btn btn-lg btn-light" onclick="onRoll(1)">7 Up</button>
+        </div>
+
+        <div class="dice col-lg-3 col-md-3">
+          <button class="button-hover btn btn-lg btn-light" onclick="onRoll(0)">Lucky 7</button>
+        </div>
+
+        <div class="dice col-lg-3 col-md-3">
+          <button class="button-hover btn btn-lg btn-light" onclick="onRoll(-1)">7 Down</button>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <img class="img1" src="images/dice6.png" >
+        <img class="img2" src="images/dice6.png" >
+      </div>
+
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+
+  <footer>
+    * 🎲 Kulkarni 🎲 *
+  </footer>
+</html>
